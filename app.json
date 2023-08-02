@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "todo-list-new",
+    "slug": "todo-list-new",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
