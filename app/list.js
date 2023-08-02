@@ -1,15 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
-import { Button } from "react-native";
-import { Link } from "expo-router";
 
-export default function Page() {
+export default function List() {
   return (
     <View style={styles.container}>
       <View style={styles.main}>
-        <Text style={styles.title}>Hello Everton</Text>
-        <Link href="/list" asChild>
-          <Button title="Lista"/>
-        </Link>
+        <Text style={styles.title}>Lista</Text>
+        <Text style={styles.subtitle}>Aqui será a lista pai!</Text>
       </View>
     </View>
   );
